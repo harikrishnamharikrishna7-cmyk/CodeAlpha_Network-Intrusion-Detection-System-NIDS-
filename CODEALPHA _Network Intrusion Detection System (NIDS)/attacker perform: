@@ -1,0 +1,20 @@
+Attacks performed:
+DNS Rebinding:
+dig google.com
+
+Ping attack:
+ping 192.168.56.101
+ 
+SSH Brute Force attack
+for i in {1..10}; do ssh -o BatchMode=yes wronguser@127.0.0.1; done
+
+
+Suricata setup:
+sudo systemctl start suricata
+sudo systemctl status suricata
+
+
+
+
+Viewing logs:
+sudo tail -f /var/log/suricata/fast.log
