@@ -1,0 +1,2 @@
+To view the rules :
+sudo nano /etc/suricata/rules/local.rules
